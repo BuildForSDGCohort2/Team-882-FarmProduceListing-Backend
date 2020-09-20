@@ -29,21 +29,21 @@ class SearchView(APIView):
         queryset = queryset.filter(produce_type__iexact=produce_type)
 
         price = data['price']
-        if price == 'N0+':
+        if price == '$0+':
             price = 0
-        elif price == 'N2,000+':
-            price = 2000
-        elif price == 'N10,000+':
-            price = 10000
-        elif price == 'N60,000+':
-            price = 60000
-        elif price == 'N80,000+':
-            price = 80000
-        elif price == 'N100,000+':
+        elif price == '$200,000+':
+            price = 200000
+        elif price == '$400,000+':
+            price = 400000
+        elif price == '$600,000+':
+            price = 600000
+        elif price == '$800,000+':
+            price = 800000
+        elif price == '$1,000,000+':
             price = 1000000
-        elif price == 'N1,200,000+':
+        elif price == '$1,200,000+':
             price = 1200000
-        elif price == 'N1,500,000+':
+        elif price == '$1,500,000+':
             price = 1500000
         elif price == 'Any':
             price = -1
