@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'rkf@i%f0w3cr=-n4ana8^=ee3h4bst+=zm+u!4lqf1ie1$b2@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['farmlisting.herokuapp.com', '127.0.0.1']
 
@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'FarmProduceListing.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'farmproducelisting',
-        'USER': 'postgres',
-        'PASSWORD': 'password123',
-        'HOST': 'localhost'
+        'NAME': 'd4dsok7c235b1h',
+        'USER': 'gvjvwbiqtiaptl',
+        'PASSWORD': '4328973201ce3e64cbb2e4247e3edec1c5a3b636fb5970d76192469bb25ee73e',
+        'HOST': 'ec2-3-218-112-22.compute-1.amazonaws.com'
     }
 }
 
