@@ -1,1 +1,1 @@
-web: gunicorn farmproduclisting.wsgi --log-file -
+web: gunicorn farmproducelisting.wsgi --log-file -
