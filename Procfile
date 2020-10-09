@@ -1,1 +1,1 @@
-web: gunicorn farmproducelisting.wsgi
+web: gunicorn FarmProduceListing.wsgi
